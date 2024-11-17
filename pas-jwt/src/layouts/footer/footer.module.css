@@ -1,0 +1,36 @@
+/* footer.module.css */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .text {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .link {
+    color: #f59e0b;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .link:hover {
+    color: #be2a68;
+  }
+  

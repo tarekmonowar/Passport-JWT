@@ -1,0 +1,44 @@
+/* home.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full page height */
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .message {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 25px;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #388e3c;
+  }
+  
