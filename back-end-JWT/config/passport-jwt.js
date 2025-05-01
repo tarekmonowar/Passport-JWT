@@ -27,7 +27,7 @@ passport.use(
       console.log("Error during user lookup:", err);
       return done(err, false); // Return error if user lookup fails
     }
-  })
+  }),
 );
 
 module.exports = passport;

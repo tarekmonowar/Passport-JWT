@@ -61,7 +61,7 @@ export default function Login() {
       } else {
         setErrorMessage("Invalid username or password. Please try again.");
       }
-    } finally {
+    } finally {   
       setIsLoading(false); // End loading
     }
   };
